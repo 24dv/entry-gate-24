@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Mail } from 'lucide-react';
 import CustomCursor from '@/components/CustomCursor';
 import logo from '@/assets/branca-logo.png';
 const Index = () => {
@@ -54,8 +55,8 @@ const Index = () => {
 
           {/* Contact Email */}
           <div className={`pt-8 md:pt-12 transition-all duration-1000 delay-500 ${enterVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
-            <a href="mailto:info@branca.be" className="font-body text-[10px] md:text-xs tracking-[0.4em] uppercase text-foreground hover:text-accent transition-colors duration-600 relative group">
-              info@branca.be
+            <a href="mailto:info@branca.be" className="inline-block text-foreground hover:text-accent transition-colors duration-600 relative group">
+              <Mail size={20} strokeWidth={1.5} />
               <span className="absolute bottom-0 left-0 w-full h-px bg-foreground group-hover:bg-accent transition-colors duration-600" />
             </a>
           </div>
