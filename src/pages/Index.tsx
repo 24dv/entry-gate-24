@@ -52,12 +52,12 @@ const Index = () => {
           {/* Tagline */}
           <p className={`font-body text-sm md:text-base tracking-[0.3em] uppercase text-muted-foreground transition-all duration-1000 delay-300 ${taglineVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>A DIGITAL AGENCY FOR THOSE WHO DON'T FOLLOW.</p>
 
-          {/* Enter Link */}
+          {/* Contact Email */}
           <div className={`pt-8 md:pt-12 transition-all duration-1000 delay-500 ${enterVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
-            <button onClick={handleEnter} className="font-body text-sm md:text-base tracking-[0.4em] uppercase text-foreground hover:text-accent transition-colors duration-600 relative group">
-              Enter
+            <a href="mailto:info@branca.be" className="font-body text-sm md:text-base tracking-[0.4em] uppercase text-foreground hover:text-accent transition-colors duration-600 relative group">
+              info@branca.be
               <span className="absolute bottom-0 left-0 w-full h-px bg-foreground group-hover:bg-accent transition-colors duration-600" />
-            </button>
+            </a>
           </div>
         </div>
       </div>
