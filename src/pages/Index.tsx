@@ -50,9 +50,7 @@ const Index = () => {
           </h1>
 
           {/* Tagline */}
-          <p className={`font-body text-sm md:text-base tracking-[0.3em] uppercase text-muted-foreground transition-all duration-1000 delay-300 ${taglineVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
-            Crafted for those who don't follow.
-          </p>
+          <p className={`font-body text-sm md:text-base tracking-[0.3em] uppercase text-muted-foreground transition-all duration-1000 delay-300 ${taglineVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>A DIGITAL AGENCY FOR THOSE WHO DON'T FOLLOW.</p>
 
           {/* Enter Link */}
           <div className={`pt-8 md:pt-12 transition-all duration-1000 delay-500 ${enterVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
