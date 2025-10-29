@@ -40,7 +40,7 @@ const Index = () => {
       <div className={`min-h-screen bg-background flex flex-col items-center justify-center px-6 transition-opacity duration-800 ${fadeOut ? 'opacity-0' : 'opacity-100'}`}>
         {/* Logo */}
         <div className={`mb-16 md:mb-20 transition-opacity duration-1500 ${logoVisible ? 'opacity-100' : 'opacity-0'}`}>
-          
+          <img src={logo} alt="Branca Logo" className="w-20 h-20 md:w-24 md:h-24 mx-auto" />
         </div>
 
         {/* Main Content */}
