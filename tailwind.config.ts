@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        heading: ['Cormorant Garamond', 'serif'],
-        body: ['Inter', 'sans-serif'],
+        heading: ['Arial Black', 'Arial', 'sans-serif'],
+        body: ['Neue Haas Grotesk Text Pro', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
