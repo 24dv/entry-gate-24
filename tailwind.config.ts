@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        heading: ['Arial Black', 'Arial', 'sans-serif'],
-        body: ['Neue Haas Grotesk Text Pro', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+        heading: ['Arial Black', 'sans-serif'],
+        body: ['Bebas Neue', 'Arial', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
