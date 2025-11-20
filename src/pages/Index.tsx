@@ -41,7 +41,7 @@ const Index = () => {
         {/* Main Content */}
         <div className="text-center space-y-8 md:space-y-12">
           {/* Brand Name */}
-          <h1 className={`font-heading text-5xl md:text-7xl lg:text-8xl font-normal tracking-[0.2em] text-foreground transition-all duration-1000 ${textVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
+          <h1 className={`font-heading text-5xl md:text-7xl lg:text-8xl tracking-[0.2em] text-foreground transition-all duration-1000 ${textVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
             BRANCA
           </h1>
 
