@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        heading: ['Arial Black', 'sans-serif'],
+        heading: ['Arimo', 'sans-serif'],
         body: ['Bebas Neue', 'Arial', 'sans-serif'],
       },
       colors: {
