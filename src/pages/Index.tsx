@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Mail } from 'lucide-react';
 import CustomCursor from '@/components/CustomCursor';
 import logo from '@/assets/branca-logo.png';
+import backgroundImage from '@/assets/background-street.jpg';
 const Index = () => {
   const navigate = useNavigate();
   const [logoVisible, setLogoVisible] = useState(false);
@@ -37,9 +38,19 @@ const Index = () => {
   };
   return <>
       <CustomCursor />
-      <div className={`min-h-screen bg-background flex flex-col items-center justify-center px-6 transition-opacity duration-800 ${fadeOut ? 'opacity-0' : 'opacity-100'}`}>
+      <div 
+        className={`min-h-screen flex flex-col items-center justify-center px-6 transition-opacity duration-800 ${fadeOut ? 'opacity-0' : 'opacity-100'}`}
+        style={{
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-background/70" />
         {/* Main Content */}
-        <div className="text-center space-y-8 md:space-y-12">
+        <div className="text-center space-y-8 md:space-y-12 relative z-10">
           {/* Brand Name */}
           <h1 className={`font-heading text-5xl md:text-7xl lg:text-8xl tracking-[0.2em] text-foreground transition-all duration-1000 ${textVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
             BRANCA
