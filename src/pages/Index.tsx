@@ -42,7 +42,7 @@ const Index = () => {
         <img 
           src={textLogo} 
           alt="Branca" 
-          className={`absolute bottom-4 left-4 md:bottom-8 md:left-8 h-12 md:h-16 lg:h-24 xl:h-30 w-auto transition-opacity duration-1000 ${logoVisible ? 'opacity-100' : 'opacity-0'}`}
+          className={`absolute bottom-4 left-4 md:bottom-8 md:left-8 h-12 md:h-16 lg:h-24 xl:h-30 w-auto max-h-[20vh] md:max-h-none transition-opacity duration-1000 ${logoVisible ? 'opacity-100' : 'opacity-0'}`}
         />
       </div>
     </>
