@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import CustomCursor from '@/components/CustomCursor';
 import monogramLogo from '@/assets/branca-monogram.png';
 import textLogo from '@/assets/branca-text-logo.png';
 import backgroundImage from '@/assets/background-street.jpg';
@@ -14,8 +13,7 @@ const Index = () => {
 
   return (
     <>
-      <CustomCursor />
-      <div 
+      <div
         className="min-h-screen relative"
         style={{
           backgroundImage: `url(${backgroundImage})`,
