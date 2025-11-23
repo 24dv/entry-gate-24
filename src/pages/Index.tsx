@@ -34,7 +34,8 @@ const Index = () => {
         {/* Contact button in top right corner */}
         <a
           href="mailto:info@branca.be"
-          className={`absolute top-8 right-8 px-8 py-2.5 text-background font-heading text-xs md:text-sm tracking-[0.3em] uppercase border-2 border-foreground hover:bg-foreground/10 transition-all duration-600 backdrop-blur-sm ${logoVisible ? 'opacity-100' : 'opacity-0'}`}
+          className={`absolute top-8 right-8 px-6 py-2 text-background text-xs tracking-[0.3em] uppercase border-2 border-black rounded-full hover:bg-foreground/10 transition-all duration-600 backdrop-blur-sm ${logoVisible ? 'opacity-100' : 'opacity-0'}`}
+          style={{ fontFamily: 'Arial, sans-serif' }}
         >
           Contact
         </a>
@@ -43,7 +44,7 @@ const Index = () => {
         <img 
           src={textLogo} 
           alt="Branca" 
-          className={`absolute bottom-8 left-8 h-24 md:h-30 w-auto transition-opacity duration-1000 ${logoVisible ? 'opacity-100' : 'opacity-0'}`}
+          className={`absolute bottom-8 left-8 h-16 md:h-24 lg:h-30 w-auto transition-opacity duration-1000 ${logoVisible ? 'opacity-100' : 'opacity-0'}`}
         />
       </div>
     </>
