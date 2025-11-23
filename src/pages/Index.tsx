@@ -32,7 +32,7 @@ const Index = () => {
         {/* Contact button in top right corner */}
         <a
           href="mailto:info@branca.be"
-          className={`absolute top-8 right-8 px-6 py-2 text-background text-xs tracking-[0.3em] uppercase border-2 border-black rounded-full hover:bg-foreground/10 transition-all duration-600 backdrop-blur-sm ${logoVisible ? 'opacity-100' : 'opacity-0'}`}
+          className={`absolute top-8 right-8 px-6 py-2 text-background text-xs tracking-[0.3em] uppercase border border-black rounded-full hover:bg-foreground/10 transition-all duration-600 backdrop-blur-sm ${logoVisible ? 'opacity-100' : 'opacity-0'}`}
           style={{ fontFamily: 'Arial, sans-serif' }}
         >
           Contact
